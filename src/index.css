@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+.card { @apply bg-slate-900/60 backdrop-blur border border-white/10 rounded-2xl shadow-glow; }
+.btn { @apply px-4 py-2 rounded-xl bg-mystic-600 hover:bg-mystic-500 active:scale-95 transition; }
+.btn-ghost { @apply px-4 py-2 rounded-xl border border-white/10 hover:bg-white/5; }
+.stat { @apply bg-white/5 rounded-2xl p-3 text-center; }
